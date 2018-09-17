@@ -1,3 +1,14 @@
+@keyframes myHeader {
+    from{ color: red;}
+    to {color: blue;}
+}
+
+body {
+    background-color: black;
+}
+
 h1 {
-    color: red;
+    animation-name: myHeader;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
