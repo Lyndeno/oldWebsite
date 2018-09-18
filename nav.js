@@ -9,9 +9,9 @@ var isActive = false;
 var index = 0;
 
 while(isActive == false && index < 3){
-    if(pages[0][0] == activePage)
+    if(pages[index][0] == activePage)
     {
-        pages[0][2] = true;
+        pages[index][2] = true;
         isActive = true;
     }
     index++;
@@ -31,16 +31,5 @@ while(index < 3) {
     index++;
 }
 html += '</ul>';
-
-
-
-
-/*var html = '<ul>\
-                <li><a href="index.html">Home</a></li>\
-                <li><a href="#">About</a></li>\
-                <li><a href="#">Contact</a></li>\
-                </ul>';
-*/
-//document.getElementById('nav').innerHTML = html;
 
 document.write(html);
