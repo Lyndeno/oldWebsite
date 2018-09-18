@@ -13,6 +13,7 @@ ul {
     box-shadow: 3px 3px 5px grey;
     position: relative;
     top: 5px;
+    border-radius: 20px;
 }
 
 li {
@@ -43,6 +44,7 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
+    border-radius: 10px;
 }
 
 body {
@@ -63,6 +65,7 @@ h1 {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
 
 }
 
@@ -71,6 +74,7 @@ h1 {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
 }
 
 p {
@@ -78,4 +82,5 @@ p {
     box-shadow: 3px 3px 5px grey;
     padding: 5px;
     padding-bottom: 400px;
+    border-radius: 5px;
 }
