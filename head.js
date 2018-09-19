@@ -1,3 +1,4 @@
+// ### Define header code ###
 var pages = [
     ["Home", "index.html", false],
     ["About", "about.html", false],
@@ -19,7 +20,10 @@ while(isActive == false && index < 3){
 
 index = 0;
 
-var html = `<div id="navbar">`
+var html = `<div class="header">\
+            <h1>Lyndon Sanche</h1>\
+            </div>\
+            <div id="navbar">`
 
 while(index < 3) {
     if (pages[index][2] == true) {
@@ -33,3 +37,25 @@ while(index < 3) {
 html += '</div>';
 
 document.write(html);
+
+// ### Sticky code ###
+
+// Execute myFunction whenever page is scrolled
+window.onscroll = function() {myFunction()};
+
+// get nav
+var navbar = document.getElementById("navbar");
+
+// get offset position
+var sticky = navbar.offsetTop;
+
+// add sticky class whenever you reach the bar scroll position
+
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+    } else {
+        navbar.classList.remove("sticky");
+    }
+
+}
