@@ -19,17 +19,17 @@ while(isActive == false && index < 3){
 
 index = 0;
 
-var html = `<ul>`
+var html = `<div id="navbar">`
 
 while(index < 3) {
     if (pages[index][2] == true) {
-        html += `<li><a class="active" href="${pages[index][1]}">${pages[index][0]}</a></li>`;
+        html += `<a class="active" href="${pages[index][1]}">${pages[index][0]}</a>`;
     }
     else if (pages[index][2] == false) {
-        html += `<li><a href="${pages[index][1]}">${pages[index][0]}</a></li>`;
+        html += `<a href="${pages[index][1]}">${pages[index][0]}</a>`;
     }  
     index++;
 }
-html += '</ul>';
+html += '</div>';
 
 document.write(html);
