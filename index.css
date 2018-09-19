@@ -1,87 +1,66 @@
-ul {
-    display: inline-block;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    list-style-type: none;
-    align-content: center;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    background-color: white;
-    box-shadow: 3px 3px 5px grey;
-    top: 5px;
-    border-radius: 20px;
-    position: relative;
-}
-
-li {
-    display: inline-block;
-    /*margin: auto;*/
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-li a {
-    color: #000;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5;
-
-    transition: .5s;
-
-    float: center;
-}
-
-li a:hover {
-    background-color: #555;
-    color: white;
-    border-radius: 10px;
-}
+/* navbar style */
 
 body {
-    margin: auto;
-    width: 80%;
-    max-width: 800px;
-    background-color: rgb(212, 212, 212);
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: center;
 }
 
-h1 {
-    align-content: center;
+.header {
+    background-color: #333;
+    padding: 30px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.active {
-    background-color: red;
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: maroon;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
-
 }
 
-.active:hover {
-    background-color: red;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
+/* page content */
+.content {
+    padding: 16px;
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
 
 p {
+    width: 80%;
     background-color: white;
-    box-shadow: 3px 3px 5px grey;
-    padding: 5px;
-    padding-bottom: 400px;
-    border-radius: 5px;
-}
+    border: 3px 3px 12px;
+    align-content: center;
+    margin: auto;
+} 
