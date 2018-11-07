@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background-color: #f10202;
+    background-color: white;
     padding: 30px;
     text-align: center;
 }
@@ -29,7 +29,7 @@ body {
     text-decoration: none;
     font-size: 17px;
 
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
 
     -o-transition: .5s;
     -ms-transition: .5s;
