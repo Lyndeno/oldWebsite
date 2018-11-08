@@ -3,7 +3,7 @@ var pages = [
     ["Home", "index.html", false],
     ["About", "about.html", false],
     ["Contact", "contact.html", false],
-    ["LyndenoCraft", "craft.html", false]
+    ["Craft", "craft.html", false]
 ];
 
 var activePage = document.currentScript.getAttribute('activePage');
@@ -22,7 +22,7 @@ while(isActive == false && index < 4){
 index = 0;
 
 var html = `<div class="header">\
-            <h1>Lyndon Sanche</h1>\
+            <h1 class="header">Lyndon Sanche</h1>\
             </div>\
             <div id="navbar">`
 

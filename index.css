@@ -9,9 +9,13 @@ body {
 }
 
 .header {
-    background-color: #9b0000;
+    background-color: #f10202;
     padding: 30px;
     text-align: center;
+}
+
+h1.header {
+    color: white
 }
 
 #navbar {
@@ -28,9 +32,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-
-    border-radius: 0px 0px 0px 0px;
-
+    
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -40,7 +42,7 @@ body {
 }
 
 #navbar a:hover {
-    background-color: #ddd;
+    background-color: #f1f1f1;
     color: black;
 }
 
@@ -68,6 +70,8 @@ body {
 
 
 p {
+    padding: 20px;
+    font-size: 20px;
     width: 80%;
     background-color: white;
     border: 3px 3px 12px;
