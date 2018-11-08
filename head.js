@@ -2,7 +2,7 @@
 var pages = [
     ["Home", "index.html", false],
     ["About", "about.html", false],
-    ["Contact", "contact.html", false]
+    ["Contact", "contact.html", false],
     ["LyndenoCraft", "craft.html", false]
 ];
 
