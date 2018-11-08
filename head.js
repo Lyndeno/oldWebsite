@@ -3,13 +3,14 @@ var pages = [
     ["Home", "index.html", false],
     ["About", "about.html", false],
     ["Contact", "contact.html", false]
+    ["LyndenoCraft", "craft.html", false]
 ];
 
 var activePage = document.currentScript.getAttribute('activePage');
 var isActive = false;
 var index = 0;
 
-while(isActive == false && index < 3){
+while(isActive == false && index < 4){
     if(pages[index][0] == activePage)
     {
         pages[index][2] = true;
