@@ -26,7 +26,7 @@ var html = `<div class="header">\
             </div>\
             <div id="navbar">`
 
-while(index < 3) {
+while(index < 4) {
     if (pages[index][2] == true) {
         html += `<a class="active" href="${pages[index][1]}">${pages[index][0]}</a>`;
     }
