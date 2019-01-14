@@ -1,16 +1,17 @@
 // ### Define header code ###
 var pages = [
-    ["Home", "index.html", false],
-    ["About", "about.html", false],
-    ["Contact", "contact.html", false],
-    ["Craft", "craft.html", false]
+    ["Home", "index", false],
+    ["About", "about", false],
+    ["Contact", "contact", false],
+    ["Craft", "craft", false],
+    ["Tech Help", "tech", false]
 ];
 
 var activePage = document.currentScript.getAttribute('activePage');
 var isActive = false;
 var index = 0;
 
-while(isActive == false && index < 4){
+while(isActive == false && index < 5){
     if(pages[index][0] == activePage)
     {
         pages[index][2] = true;
@@ -26,7 +27,7 @@ var html = `<div class="header">\
             </div>\
             <div id="navbar">`
 
-while(index < 4) {
+while(index < 5) {
     if (pages[index][2] == true) {
         html += `<a class="active" href="${pages[index][1]}">${pages[index][0]}</a>`;
     }
