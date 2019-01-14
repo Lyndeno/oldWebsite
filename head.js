@@ -4,7 +4,7 @@ var pages = [
     ["About", "about", false],
     ["Contact", "contact", false],
     ["Craft", "craft", false],
-    ["Tech", "tech", false]
+    ["Tech Help", "tech", false]
 ];
 
 var activePage = document.currentScript.getAttribute('activePage');
