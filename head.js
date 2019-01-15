@@ -1,10 +1,10 @@
 // ### Define header code ###
 var pages = [
-    ["Home", "index", false],
-    ["About", "about", false],
-    ["Contact", "contact", false],
-    ["Craft", "craft", false],
-    ["Tech Help", "tech", false]
+    ["Home", "index.html", false],
+    ["About", "about.html", false],
+    ["Contact", "contact.html", false],
+    ["Craft", "craft.html", false],
+    ["Tech Help", "tech.html", false]
 ];
 
 var activePage = document.currentScript.getAttribute('activePage');
