@@ -14,7 +14,11 @@ body {
     text-align: center;
 }
 
-h1.header, h2.header {
+h1.header {
+    color: white
+}
+
+h2.header {
     color: white
 }
 
