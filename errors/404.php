@@ -4,6 +4,7 @@
     <meta name="theme-color" content="#f10202">
     <head>
         <title>Oops!</title>
+        <link rel="stylesheet" href="index.css">
     </head>
 
     <body>
