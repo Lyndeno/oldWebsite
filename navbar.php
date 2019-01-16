@@ -5,4 +5,4 @@
     <a href="craft.php">Craft</a></li>
     <a href="tech.php">Tech Help</a></li>
 </div>
-<script src="head.js"></script>
+<script src="navbar.js"></script>
