@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
-    <meta name="theme-color" content="#f10202">
+<?php $title = 'Home'; ?>
+<?php $currentPage = 'Home'; ?>
 
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    
-   
-    <body>
-        <script src="head.js" activePage="About"></script>
-        
-        <div class="content">
-            <h1>TEST</h1>
-        </div>
-    </body>
+<?php include('head.php'); ?>
+<?php include('navbar.php'); ?>
+
+<div class="content">
+</div>
+</body>
 </html>
