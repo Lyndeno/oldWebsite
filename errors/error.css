@@ -10,9 +10,9 @@ div {
     margin-left: -200px;
     padding: 16px;
     border-radius: 10px;
+    box-shadow: 2px 2px 10px grey
 }
 
 body {
     background: #f10202;
-    box-shadow: 2px 2px 10px grey
 }
