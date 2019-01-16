@@ -1,5 +1,5 @@
-<?php $title = 'Home'; ?>
-<?php $currentPage = 'Home'; ?>
+<?php $title = 'Contact'; ?>
+<?php $currentPage = 'Contact'; ?>
 
 <?php include('head.php'); ?>
 <?php include('navbar.php'); ?>
