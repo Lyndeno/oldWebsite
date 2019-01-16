@@ -1,5 +1,5 @@
 // ### Define header code ###
-var pages = [
+/* var pages = [
     ["Home", "index.php", false],
     ["About", "about.php", false],
     ["Contact", "contact.php", false],
@@ -39,6 +39,8 @@ while(index < 5) {
 html += '</div>';
 
 document.write(html);
+
+*/
 
 // ### Sticky code ###
 
