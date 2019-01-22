@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,9 +9,9 @@
 </head>
 <body style="background: pink">
     <div style="background: #fdeeea">
-        <h1>Happy Birthday my Jazzykins!!!!!!</h1>
-        <p>I hope you have a great day today :)</p>
-        <p>I like you :)</p>
+        <h1 style="font: arial">Happy Birthday my Jazzykins!!!!!!</h1>
+        <p style="font: arial">I hope you have a great day today :)</p>
+        <p style="font: arial">I like you :)</p>
     </div>
 </body>
 </html>
