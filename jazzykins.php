@@ -9,9 +9,9 @@
 </head>
 <body style="background: pink">
     <div style="background: #fdeeea">
-        <h1 style="font: arial">Happy Birthday my Jazzykins!!!!!!</h1>
-        <p style="font: arial">I hope you have a great day today :)</p>
-        <p style="font: arial">I like you :)</p>
+        <h1 style="font-family: Arial, Helvetica, sans-serif">Happy Birthday my Jazzykins!!!!!!</h1>
+        <p style="font-family: Arial, Helvetica, sans-serif">I hope you have a great day today :)</p>
+        <p style="font-family: Arial, Helvetica, sans-serif">I like you :)</p>
     </div>
 </body>
 </html>
