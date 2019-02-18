@@ -9,4 +9,4 @@
     <script src="navbar.js"></script>
 </header>
 <body>
-    <div class="content"><h2><?php echo($title); ?></h2></div>
+    <div class="titlehead"><h2><?php echo($title); ?></h2></div>
