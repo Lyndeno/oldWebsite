@@ -69,7 +69,6 @@ h2.header {
     border: 3px 3px 12px;
     align-content: center;
     margin: auto;
-    text-indent: 10px;
 
     border-radius: 5px;
 
@@ -94,10 +93,9 @@ h2.header {
 
 
 p {
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
     width: 95%;
     align-content: center;
     margin: auto;
-    text-indent: 10px;
 } 
