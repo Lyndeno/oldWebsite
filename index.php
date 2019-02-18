@@ -6,7 +6,7 @@
 
 <div class="content">
     
-    <p style="padding-bottom: 1500px">
+    <p>
         Hello, my name is Lyndon Sanche and this is my website.
     </p>
         

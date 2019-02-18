@@ -1,5 +1,3 @@
-/* navbar style */
-
 body {
     margin: 0;
     font-size: 28px;
@@ -58,9 +56,6 @@ h2.header {
 
 /* page content */
 .content {
-    /*padding: 16px;
-    margin: auto;
-    width: 90%;*/
     max-width: 1000px;
 
     padding: 20px;
