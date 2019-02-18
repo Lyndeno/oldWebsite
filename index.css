@@ -81,7 +81,7 @@ h2.header {
     width: 100%;
 }
 
-.sticky + .content {
+.sticky + .body {
     padding-top: 60px;
 }
 
