@@ -7,7 +7,7 @@
 <div class="content">
     
     <p>
-        Hello there, my name is Lyndon Sanche and this is my website.
+        Hello there, my name is Lyndon Sanche and this is my website. I plan to put more stuff on here in the future.
     </p>
         
 </div>
