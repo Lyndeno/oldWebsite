@@ -9,11 +9,11 @@
                 <a href="#about">About</a>
             </div>
         </div>
-        <script src="newbar.js"></script>
     </head>
 
     <body>
     <h1>Test Title</h1>
     <p>sklmdsdas sajdlajs jsaldjdljas jdsadjlaj jdasljlsajdl jdlasdjljdlj</p>
     <body>
+    <script src="newbar.js"></script>
 </html>
