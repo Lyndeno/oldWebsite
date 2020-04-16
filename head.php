@@ -9,7 +9,7 @@
 </head>
 <header>
     <div class="header">
-        <h1 class="header">Lyndon Sanche</h1>
+        <h1>Lyndon Sanche</h1>
     </div>
     <div id="navbar">
         <a href="index.php" <?php if ($currentPage === 'Home') {echo 'class="active"';} ?>>Home</a>
