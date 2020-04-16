@@ -111,3 +111,8 @@ p {
     position: absolute;
     right: 10px;
 }
+
+.fa-linkedIn {
+    background: black;
+    color: white;
+  }
