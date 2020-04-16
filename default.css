@@ -8,11 +8,10 @@ body {
 }
 
 .headshot {
-    float: left;
+    float: center;
     width: 150px;
     height: 150px;
     border-radius: 25%;
-    margin-right: 25px;
 }
 
 .header {
