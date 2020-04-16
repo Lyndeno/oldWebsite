@@ -1,10 +1,9 @@
 <head>
     <title><?php echo($title); ?></title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="default.css">
     <meta name="viewport" content="width=device-width, initial-scaled=1.0">
-    <meta name="theme-color" content="#f10202">
+    <meta name="theme-color" content="bd0000">
 </head>
-
 <header>
     <div class="header">
         <h1 class="header">Lyndon Sanche</h1>
