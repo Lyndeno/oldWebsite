@@ -1,6 +1,7 @@
 <head>
     <title><?php echo($title); ?></title>
     <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scaled=1.0">
     <meta name="theme-color" content="bd0000">
 </head>
