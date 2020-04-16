@@ -9,7 +9,7 @@
 </head>
 <header>
     <div class="header">
-        <img src="headshot.jpg" style="width:7.5%;height:7.5%";>
+        <img src="headshot.jpg" style="width:200px%;height:200px";>
         <h1 class="header-text">Lyndon Sanche</h1>
     </div>
     <div id="navbar">
