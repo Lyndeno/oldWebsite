@@ -59,6 +59,13 @@ h2.header {
     color: black;
 }
 
+#navbar a:active,#navbar a:focus {
+    outline: 0;
+    border: none;
+    outline-style: none;
+    -moz-outline-style: none;
+}
+
 /* page content */
 .content {
     max-width: 1000px;
