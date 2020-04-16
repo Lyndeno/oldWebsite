@@ -8,4 +8,4 @@
         <div class="header">
             <h1 class="header">Lyndon Sanche</h1>
         </div>
-</header>
+    </head>
