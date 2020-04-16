@@ -36,7 +36,7 @@ h2.header {
     text-decoration: none;
     font-size: 17px;
 
-    border-radius: 10px, 10px, 0px, 0px;
+    border-radius: 10px 10px 0px 0px;
     
     -o-transition: .75s;
     -ms-transition: .75s;
