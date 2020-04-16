@@ -8,6 +8,7 @@
         <a href="https://github.com/Lyndeno/pachive" <?php if ($currentPage === 'pachive') {echo 'class="active"';} ?>>pachive</a></li>
     </div>
     <script src="navbar.js"></script>
+    <div class="titlehead"><h2><?php echo($title); ?></h2></div>
 </header>
 <body>
-    <div class="titlehead"><h2><?php echo($title); ?></h2></div>
+    
