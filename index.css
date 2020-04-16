@@ -97,3 +97,16 @@ p {
     align-content: center;
     margin: auto;
 } 
+
+.contactAlign b {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    padding-right: 10px;
+}
+
+.contactAlign b::after {
+    content: ":";
+    position: absolute;
+    right: 10px;
+}
