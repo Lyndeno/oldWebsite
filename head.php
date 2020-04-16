@@ -15,6 +15,7 @@
         <a href="tech.php" <?php if ($currentPage === 'Tech') {echo 'class="active"';} ?>>Tech Help</a>
         <a href="https://github.com/Lyndeno" <?php if ($currentPage === 'Github') {echo 'class="active"';} ?>>Github</a>
         <a href="https://github.com/Lyndeno/pachive" <?php if ($currentPage === 'pachive') {echo 'class="active"';} ?>>pachive</a>
+        <a href="https://www.linkedin.com/in/lyndon-sanche-6544b715b/" class="fa fa-linkedin" <?php if ($currentPage === 'LinkedIn') {echo 'class="active"';} ?>>LinkedIn</a>
     </div>
     <script src="navbar.js"></script>
     <div class="titlehead"><h2><?php echo($title); ?></h2></div>
