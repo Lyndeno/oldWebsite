@@ -2,9 +2,10 @@
 <?php $title = 'Contact'; ?>
 <?php $currentPage = 'Contact'; ?>
 
-<?php include('head.php'); ?>
+
 
 <html>
+    <?php include('head.php'); ?>
     <body>
         <div class="content">
             <!--<p style="font-family: Arial, Helvetica, sans-serif" >
