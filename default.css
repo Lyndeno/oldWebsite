@@ -8,7 +8,6 @@ body {
 }
 
 .headshot {
-    float: center;
     width: 150px;
     height: 150px;
     border-radius: 25%;
@@ -16,7 +15,7 @@ body {
 
 .header {
     background-color: #bd0000;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
