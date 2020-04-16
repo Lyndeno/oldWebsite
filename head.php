@@ -9,12 +9,8 @@
 </head>
 <header>
     <div class="header">
-        <div class="split left">
-            <h1 class="header-text">Lyndon Sanche</h1>
-        </div>
-        <div class="split right">
-            <img src="headshot.jpg">
-        </div>
+        <img src="headshot.jpg">
+        <h1 class="header-text">Lyndon Sanche</h1>
     </div>
     <div id="navbar">
         <a href="index.php" <?php if ($currentPage === 'Home') {echo 'class="active"';} ?>>Home</a>
