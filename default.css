@@ -7,6 +7,13 @@ body {
     padding-bottom: 50px;
 }
 
+.headshot {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+}
+
 .header {
     background-color: #bd0000;
     padding: 15px;
