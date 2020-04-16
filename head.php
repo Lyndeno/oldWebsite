@@ -9,8 +9,7 @@
 </head>
 <header>
     <div class="header">
-        <img src="headshot.jpg" class="headshot">
-        <h1 class="header-text">Lyndon Sanche</h1>
+        <img src="headshot.jpg" class="headshot"><h1 class="header-text">Lyndon Sanche</h1>
     </div>
     <div id="navbar">
         <a href="index.php" <?php if ($currentPage === 'Home') {echo 'class="active"';} ?>>Home</a>
