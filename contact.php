@@ -2,7 +2,8 @@
 <?php $currentPage = 'Contact'; ?>
 
 <?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+
+<body>
 
 <div class="content">
     <!--<p style="font-family: Arial, Helvetica, sans-serif" >
