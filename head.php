@@ -10,7 +10,6 @@
     </div>
     <div id="navbar">
         <a href="index.php" <?php if ($currentPage === 'Home') {echo 'class="active"';} ?>>Home</a>
-        <a href="about.php" <?php if ($currentPage === 'About') {echo 'class="active"';} ?>>About</a>
         <a href="contact.php" <?php if ($currentPage === 'Contact') {echo 'class="active"';} ?>>Contact</a>
         <a href="tech.php" <?php if ($currentPage === 'Tech') {echo 'class="active"';} ?>>Tech Help</a>
         <a href="https://github.com/Lyndeno" <?php if ($currentPage === 'Github') {echo 'class="active"';} ?>>Github</a>
