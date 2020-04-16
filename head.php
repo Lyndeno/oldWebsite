@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
     <meta name="viewport" content="width=device-width, initial-scaled=1.0">
     <meta name="theme-color" content="#f10202">
     <head>
