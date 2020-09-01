@@ -16,7 +16,6 @@
         <a href="index.php" <?php if ($currentPage === 'Home') {echo 'class="active"';} ?>>Home</a>
         <a href="contact.php" <?php if ($currentPage === 'Contact') {echo 'class="active"';} ?>>Contact</a>
         <a href="tech.php" <?php if ($currentPage === 'Tech') {echo 'class="active"';} ?>>Tech Help</a>
-        <a href="https://github.com/Lyndeno/pachive" target="_blank">pachive</a>
         <a href="https://github.com/Lyndeno" class="fa fa-github" target="_blank"></a>
         <a href="https://www.linkedin.com/in/lyndon-sanche-6544b715b/" class="fa fa-linkedin" target="_blank"></a>
     </div>
