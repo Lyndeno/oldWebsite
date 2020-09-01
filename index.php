@@ -6,7 +6,7 @@
     <body>
         <div class="content">
             <p>
-                Hello there, my name is Lyndon Sanche and this is my website. I plan to put more stuff on here in the future.
+                Hello there, my name is Lyndon Sanche and this is my website.
             </p>
         </div>
     </body>
